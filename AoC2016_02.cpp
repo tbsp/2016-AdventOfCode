@@ -1,7 +1,7 @@
 /*
 
-Advent of Code 2016
-Day 2: Bathroom Security
+ Advent of Code 2016
+ Day 2: Bathroom Security
 
 */
 
