@@ -14,8 +14,8 @@ Day 2: Bathroom Security
 //#define DEBUG
 
 /********************************************************
-** Method to read keypad movement input
-********************************************************/
+ ** Method to read keypad movement input
+ ********************************************************/
 std::vector<std::vector<char>> readMovements(std::string &fileName)
 {
 	std::vector<std::vector<char>> vect;
@@ -41,8 +41,8 @@ std::vector<std::vector<char>> readMovements(std::string &fileName)
 
 
 /*******************************************************
-** Keypad object
-*******************************************************/
+ ** Keypad object
+ *******************************************************/
 class Keypad {
 public:
 	Keypad(int);
@@ -123,8 +123,8 @@ bool Keypad::isValidMove(int xOff, int yOff)
 
 
 /********************************************************
-** Main
-********************************************************/
+ ** Main
+ ********************************************************/
 int main()
 {
 
