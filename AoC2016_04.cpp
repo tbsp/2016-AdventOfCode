@@ -1,7 +1,7 @@
 /*
 
  Advent of Code 2016
- Day 4: Squares With Three Sides
+ Day 4: Security Through Obscurity
 
 */
 
