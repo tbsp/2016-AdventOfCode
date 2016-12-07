@@ -51,28 +51,17 @@ std::string correctMessage(std::vector<std::string> messages, bool sortMax)
 			charCount[itr[i]]++;
 
 		// find the max value in the frequency map
-		if (sortMax == true)
-		{
-			auto pr = std::max_element
-			(
-				std::begin(charCount), std::end(charCount),
-				[](const pair_type & p1, const pair_type & p2) {
+		auto pr = std::max_element
+		(
+			std::begin(charCount), std::end(charCount),
+			[=](const pair_type & p1, const pair_type & p2) {
+			if ( sortMax == true )
 				return p1.second < p2.second;
-			}
-			);
-			message += pr->first;
-		}
-		else // find the min value in the frequency map
-		{
-			auto pr = std::max_element
-			(
-				std::begin(charCount), std::end(charCount),
-				[](const pair_type & p1, const pair_type & p2) {
+			else
 				return p1.second > p2.second;
 			}
-			);
-			message += pr->first;
-		}
+		);
+		message += pr->first;
 	}
 
 	return message;
