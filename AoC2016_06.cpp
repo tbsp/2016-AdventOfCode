@@ -1,3 +1,10 @@
+/*
+
+ Advent of Code 2016
+ Day 6: Signals and Noise
+
+*/
+
 #include <string>
 #include <fstream>
 #include <iostream>
