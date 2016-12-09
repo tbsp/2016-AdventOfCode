@@ -14,7 +14,7 @@
 #define DEBUG
 
 /********************************************************
- ** Method to read messages
+ ** Method to read IPs
  ********************************************************/
 std::vector<std::string> readIPs(std::string &fileName)
 {
