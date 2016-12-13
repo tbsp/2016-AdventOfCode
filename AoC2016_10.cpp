@@ -139,8 +139,8 @@ void Bot::EmptyChips()
 
 
 /********************************************************
-** Distribute the bot instructions
-********************************************************/
+ ** Distribute the bot instructions
+ ********************************************************/
 void DistributeBotInstructions(std::map<unsigned int, Bot>& bots, std::vector<std::string> instructions)
 {
 	for (auto itr : instructions)
@@ -182,6 +182,9 @@ void DistributeBotInstructions(std::map<unsigned int, Bot>& bots, std::vector<st
 	}
 }
 
+/********************************************************
+ ** Process the bot instructions
+ ********************************************************/
 void ProcessBotInstructions(std::map<unsigned int, Bot>& bots, std::map<unsigned int, unsigned int>& outputs)
 {
 	int foundFullBot = false;
