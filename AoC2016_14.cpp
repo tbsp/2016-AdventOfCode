@@ -166,6 +166,6 @@ int main()
 	double elapsedPart2 = double(end2 - end1) / CLOCKS_PER_SEC;
 
 	std::cout << "Part 1 in " << elapsedPart1 << " seconds, part 2 in " << elapsedPart2 << " seconds." << std::endl;
-
+ 
 	return 0;
 }
